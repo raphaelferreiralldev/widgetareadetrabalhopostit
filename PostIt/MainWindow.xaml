@@ -1,0 +1,24 @@
+﻿<Window x:Class="PostIt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PostIt"
+        mc:Ignorable="d"
+        Title="gta 6" Height="450" Width="800">
+
+
+    <Grid>
+            <TextBlock Text="gta 6 andar: ← → ↑ ↓ pular: Space atirar: enter"/>
+
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="10">
+      <Button Width="30" Height="30" Background="Yellow"  Margin="4" Click="ChangeColor" Tag="Yellow"/>
+      <Button Width="30" Height="30" Background="LightBlue" Margin="4" Click="ChangeColor" Tag="LightBlue"/>
+      <Button Width="30" Height="30" Background="LightGreen" Margin="4" Click="ChangeColor" Tag="LightGreen"/>
+      <Button Width="30" Height="30" Background="LightPink" Margin="4" Click="ChangeColor" Tag="LightPink"/>
+  </StackPanel>
+            <!-- COLE O STACKPANEL COM OS BOTÕES DE COR AQUI, DENTRO DO GRID -->
+
+    </Grid>
+
+</Window>
